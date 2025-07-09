@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>ThynkTech | Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="./image/logo.png" alt="logo" />
+      </a>
+      <nav class="primary-navigation slide-in-left" id="primary-navigation">
+        <ul class="main-menu" role="list">
+          <li role="listitem"><a href="index.html">Home</a></li>
+          <li role="listitem"><a href="aboutus.html">About Us</a></li>
+          <li role="listitem" class="dropdown">
+            <a href="./services.html"
+              >Services
+              <span class="chevron-down">
+                <i class="fa-solid fa-chevron-down"></i></span
+            ></a>
+            <ul role="list" class="dropdown-menu">
+              <li role="listitem"><a href="#">Custom Software</a></li>
+              <li role="listitem"><a href="#">AI & Analytics</a></li>
+              <li role="listitem"><a href="#">Cloud & DevOps</a></li>
+              <li role="listitem"><a href="#">UI/UX Design</a></li>
+            </ul>
+          </li>
+          <li role="listitem"><a href="#">Contact Us</a></li>
+          <li role="listitem"><a href="#">Projects</a></li>
+        </ul>
+
+        <div class="cta">
+          <ul>
+            <li><a href="#">Login</a></li>
+            <br />
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        type="menu">
+        <span class="visually-hidden">Menu</span>
+        <span aria-hidden="true">&#9776;</span>
+      </button>
+    </header>
+    <section class="hero section-padding">
+      <video src="./video/video.mp4" autoplay loop></video>
+      <div class="hero-container">
+        <h1>A Good website</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+          necessitatibus praesentium. Aspernatur.
+        </p>
+        <div class="cta"><a href="#">Login</a><a href="#">Register</a></div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
